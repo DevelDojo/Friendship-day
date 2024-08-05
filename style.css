@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    height: fit-content;
+    min-height: 90vh;
+    background-color: peachpuff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100;
+    padding: 30px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn {
+    padding: 6px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    color: white;
+    font-style: normal;
+    background-color: rgb(233, 33, 66);
+}
+
+.btn1{
+    font-size: 18px;
+}
+
+h1, h2, span, h3, h4 {
+    margin: 0;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.nidu{
+    border-radius: 50%;
+    height: 10em;
+    margin: 25px 0;
+}
+
+/* ___first___ */
+
+.firstint, .secondint, .thirdint, .fourthint{
+    width: 80vw;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+/* ___second___ */
+
+.btn5 {
+    padding: 6px 16px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: "Comic Neue", cursive;
+        font-weight: 700;
+        color: white;
+        font-style: normal;
+        background-color: darkgray;
+}
